@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+
+.row1 {
+    display: flex;
+    border: solid black;
+   
+    background-color: aqua;
+
+}
+
+
+
+.row2 {
+    display: flex;
+    border: solid black;
+   
+    background-color: aqua;
+
+}
+
+.colum1 {
+    flex: 1;
+    border: solid black;
+}
+
+.colum2{
+    flex: 4;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.today{
+    flex: 1;
+    border: solid black;
+}
+
+.week {
+    flex: 1;
+    border: solid black;
+    display: flex;
+}
+.day {
+    flex:1;
+    padding: 5px;
+    border: 5px 5px 5px 5px;
+}

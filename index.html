@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>5 Day Weather Forecast</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <div class="row1">
+        <p>weather dashboard</p>
+        
+
+    </div>
+    <div class="row2">
+        <div class ="colum1">
+            <input type="text" class="userinput" id="enter" value="Lake Forest">
+            <input type="submit" value="Search" id="btn">
+
+
+        </div>
+        <div class ="colum2">
+            <div class="today">
+                <h3>City: <span id="city"></span><span id="today"></span> </h3>
+                <p>Temp: <span id="temp"></span></p>
+                <p>Wind: <span id="wind"></span> </p>
+                <p>Humidity: <span id="humid"></p>
+                <p>UV Index: <span id="uvindex"></p>
+            </div>
+            <div class="week">
+                <div class="day1 day">
+                    <p id='date1'></p>
+                    <img id="IMG1">
+                    <p>Temp: <span id="temperatureday1"></span>Fahreheit</p>
+                    <p>Wind: <span id="windday1"></span> </p>
+                    <p>Humidity: <span id="humidday1"></p>                    
+                </div>    
+                <div class="day2 day">
+                    <p id='date2'></p>
+                    <img id="IMG2">
+                    <p>Temp: <span id="temperatureday2"></span>Fahrenheit</p>
+                    <p>Wind: <span id="windday2"></span> </p>
+                    <p>Humidity: <span id="humidday2"></p>                    
+                </div>  
+                <div class="day3 day">
+                    <p id='date3'></p>
+                    <img id="IMG3">
+                    <p>Temp: <span id="temperatureday3"></span>Fahrenheit</p>
+                    <p>Wind: <span id="windday3"></span> </p>
+                    <p>Humidity: <span id="humidday3"></p>                    
+                </div>  
+                <div class="day4 day">
+                    <p id='date4'></p>
+                    <img id="IMG4">
+                    <p>Temp: <span id="temperatureday4"></span>Fahrenheit</p>
+                    <p>Wind: <span id="windday4"></span> </p>
+                    <p>Humidity: <span id="humidday4"></p>                    
+                </div>  
+                <div class="day5 day">
+                    <p id='date5'></p>
+                    <img id="IMG5">
+                    <p>Temp: <span id="temperatureday5"></span>Fahrenheit</p>
+                    <p>Wind: <span id="windday5"></span> </p>
+                    <p>Humidity: <span id="humidday5"></p>                    
+                </div>  
+            </div>
+        </div>
+    </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/momment.js"></script>
+   
+
 </body>
 </html>
+    
